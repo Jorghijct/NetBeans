@@ -1,4 +1,4 @@
-# NetBean - TechSolutions 
+# NetBeans - TechSolutions 
 
 ## Descripción
 Sistema web para la gestión de productos de una empresa de computación desarrollado como proyecto universitario.
