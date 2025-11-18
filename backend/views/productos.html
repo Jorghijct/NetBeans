@@ -10,7 +10,6 @@
     <!-- Incluir nuestro archivo de validaciones -->
     <script src="./assets/js/validaciones.js"></script>
     <style>
-      /* Estilos para el formulario de productos */
       body {
         font-family: Arial, sans-serif;
         max-width: 600px;
@@ -89,7 +88,6 @@
         display: none;
       }
 
-      /* Firma del desarrollador */
       .firma {
         position: fixed;
         bottom: 10px;
@@ -109,15 +107,17 @@
       <h2>Alta de Productos</h2>
     </div>
 
-    <form action="/productos/guardar" method="POST">
+    <form id="formProductos" action="/productos/guardar" method="POST">
       <div class="form-group">
         <label for="id">ID del Producto (Numérico):</label>
         <input type="number" id="id" name="id" min="1" required />
+        <div class="error-message" id="error-id"></div>
       </div>
 
       <div class="form-group">
         <label for="nombre">Nombre del Producto:</label>
         <input type="text" id="nombre" name="nombre" required />
+        <div class="error-message" id="error-nombre"></div>
       </div>
 
       <div class="form-group">
@@ -128,6 +128,7 @@
           name="imagen"
           placeholder="https://ejemplo.com/imagen.jpg"
         />
+        <div class="error-message" id="error-imagen"></div>
       </div>
 
       <div class="form-group">
@@ -138,6 +139,7 @@
           rows="4"
           required
         ></textarea>
+        <div class="error-message" id="error-descripcion"></div>
       </div>
 
       <div class="form-group">
@@ -150,6 +152,7 @@
           min="0"
           required
         />
+        <div class="error-message" id="error-precio"></div>
       </div>
 
       <div class="form-group">
@@ -162,6 +165,7 @@
           <option value="4">Software</option>
           <option value="5">Accesorios</option>
         </select>
+        <div class="error-message" id="error-categoria_id"></div>
       </div>
 
       <button type="submit">Guardar Producto</button>
