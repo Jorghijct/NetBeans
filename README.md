@@ -18,5 +18,5 @@ Sistema web para la gestión de productos de una empresa de computación desarro
 - **Jorghi Cote** - Desarrollo y diseño
 
 ## Instalación
-1. Clonar el repositorio
-2. Abrir los archivos HTML en el navegador
+1. Clonar el repositorio. 
+2. Abrir los archivos HTML en el navegador. 
