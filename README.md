@@ -28,4 +28,3 @@ Sistema web para la gestión de productos de una empresa de computación desarro
 
 1. Clonar el repositorio.
 2. Abrir los archivos HTML en el navegador.
-   C:\xampp\htdocs\NetBeans\README.md
